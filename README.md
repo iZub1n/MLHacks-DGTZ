@@ -1,4 +1,4 @@
-# MLHacks-GTZ
+# MLHacks-DGTZ
 Team Members - David Yu, Gursharan Grewal, Tinh Le, Zubin Singh.
 Major league hacking covid fighter game
 
