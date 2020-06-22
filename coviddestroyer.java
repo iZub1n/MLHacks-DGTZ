@@ -3,7 +3,7 @@ import java.awt.event.*;
 import java.applet.Applet;
 import java.util.*;
 
-public class SpaceInvadersSpinOff extends Applet implements Runnable, KeyListener{ 
+public class CovidDestroyer extends Applet implements Runnable, KeyListener{ 
 	final int LENGTH =800;
 	final int WIDTH = 400;
 	Random random;
@@ -59,7 +59,7 @@ public class SpaceInvadersSpinOff extends Applet implements Runnable, KeyListene
 			if(!gameStarted && gameOver == false){
 				gfx.setColor(Color.WHITE);
 				gfx.setFont(new Font("Courier", Font.PLAIN, 64));
-				gfx.drawString("COVID DEFENDER", 150, 200); 
+				gfx.drawString("COVID DESTROYER", 150, 200); 
 				gfx.setFont(new Font("Courier", Font.PLAIN, 16));
 				gfx.drawString("Press ENTER to Begin...", 300, 250);
 			}else if(gameOver == false){
